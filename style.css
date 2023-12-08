@@ -91,7 +91,7 @@ body{
     --day: var(--jupiter-day);
 }
 .info{
-    width: 40%;
+    width: 50%;
 }
 .title{
     text-align: center;
