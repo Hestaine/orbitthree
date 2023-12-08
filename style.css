@@ -1,0 +1,36 @@
+@import url("https://use.fontawesome.com/releses/v6.5.1/css/all.css");
+@import url('https://font.googleapis.com/css2?family=Major+Mono+Display');
+:root{
+    --earth-image: url("https://codetheworld.io/wp-content/uploads/2023/12/earth.jpg");
+    --earth-tilt: rotate(23.2deg);
+    --earth-day: 23.9;
+    --earth-color: #b3caff;
+    --mars-image: url("https://codetheworld.io/wp-content/uploads/2023/12/mars.jpg");
+    --mars-tilt: rotate(25.2deg);
+    --mars-day: 24.6;
+    --mars-color: #c07158;
+    --jupiter-image: url("https://codetheworld.io/wp-content/uploads/2023/12/jupiter.jpg");
+    --jupiter-tilt: rotate(3.1deg);
+    --jupiter-day: 9.9;
+    --jupiter-color: #c07158;
+}
+@keyframes planetRotate {
+    0% {
+        background-position: 0% center;
+    }
+    100%{
+        background-position: 200% center;
+    }
+}
+body{
+    height: 100vh;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.card{
+    
+}
