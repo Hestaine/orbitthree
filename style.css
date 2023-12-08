@@ -24,6 +24,7 @@
 }
 body{
     height: 100vh;
+    width: 98%;
     background: black;
     color: white;
     display: flex;
@@ -90,7 +91,7 @@ body{
     --day: var(--jupiter-day);
 }
 .info{
-    width: 100%;
+    width: 40%;
 }
 .title{
     text-align: center;
@@ -112,4 +113,23 @@ body{
     flex: 1;
     margin: 0 5px;
     border-bottom: 1px;
+}
+@media (min-width: 400px) {
+    body{
+        display: block;
+    }
+    .card{
+        margin-bottom: 3rem;
+    }
+    .jupiter{
+        margin-bottom: 4rem;
+    }
+}
+@media (min-width: 1000px) {
+    body{
+        display: flex;
+    }
+    .info{
+        width: 100%;
+    }
 }
